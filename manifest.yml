@@ -1,0 +1,7 @@
+---
+applications:
+- name: hello-cf
+  buildpack: dotnet_core_buildpack
+  stack: linux
+  path: publish/
+  command: ./hello-dotnet-web
